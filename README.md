@@ -2,8 +2,21 @@
 ## 🎨 "comfortable-night-eyes" - A dark theme for last long Coding
 -------------*-------------------
 
-PRESS [Command+K+T] ---> to change theme
+PRESS [Command+K+T] ---> for quickly change & view theme
 
+-------------*-------------------
+1. Customization based on Dark+ default:
+
+    Night-Eyes (Dark+ Default) - SunShine --120%
+    Night-Eyes (Dark+ Default) - Day      --100% brightness
+    Night-Eyes (Dark+ Default) - Night    --80%
+    Night-Eyes (Dark+ Default) - MidNight --75% low-light condition
+
+2. Monokai
+
+3. Monokai Dimmed 
+
+4. Fresh Dark+
 -------------*-------------------
 
 hey guys!!
