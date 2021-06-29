@@ -64,19 +64,17 @@ lấy cảm hứng từ {Monokai Faded theme} thấy cái này rất ok nhưng b
 vì thế mình đã tạo ra "comfortable-night-eyes" 😃 giúp nhìn code lâu không bị mỏi mắt vào ban đêm.
 mình làm cho vui, tiện share cho mọi người, bạn cài thử thấy ưng thì dùng nhé! 
 
+### COLOR MAZE
+
 ### FRESH Dark+
-
-![Getting Started](https://user-images.githubusercontent.com/83786393/122663567-a1e78800-d1c5-11eb-9baa-c92366769c37.png)
-
+  
 ### Monokai theme
 
-![Getting Started](https://user-images.githubusercontent.com/83786393/122663591-ee32c800-d1c5-11eb-82de-2a7433b89993.png)
-![Getting Started](https://user-images.githubusercontent.com/83786393/122663601-073b7900-d1c6-11eb-8bcb-57742c5cde21.png)
-
 ### Monokai dimmed
+  
+### VS CODE DARK+ DEFAULT
 
-![Getting Started](https://user-images.githubusercontent.com/83786393/122663611-14f0fe80-d1c6-11eb-9675-7160e8fe4d1e.png)
-![Getting Started](https://user-images.githubusercontent.com/83786393/122663614-191d1c00-d1c6-11eb-86e6-63c1e675dea5.png)
+
 
 
 
