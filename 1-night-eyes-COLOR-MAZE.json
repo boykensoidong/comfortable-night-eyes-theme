@@ -1,0 +1,1305 @@
+{
+	"$schema": "vscode://schemas/color-theme",
+	"name": "night-eyes-color-maze",
+	"type": "dark",
+	"colors": {
+        // color maze
+        "focusBorder": "#DA9FE5",
+		"foreground": "#F0EBDF",
+		"button.background": "#DA9FE5",
+		"button.foreground": "#ffffff",
+		"dropdown.background": "#303951",
+		"input.background": "#303951",
+		"inputOption.activeBorder": "#DA9FE5",
+		"list.activeSelectionBackground": "#DA9FE580",
+		"list.activeSelectionForeground": "#FFFFFF",
+		"list.dropBackground": "#DA9FE580",
+		"list.focusBackground": "#DA9FE580",
+		"list.focusForeground": "#FFFFFF",
+		"list.highlightForeground": "#DA9FE5",
+		"list.hoverBackground": "#FFFFFF1a",
+		"list.inactiveSelectionBackground": "#FFFFFF33",
+		"activityBar.background": "#2a3247",
+		"activityBarBadge.background": "#c06acf",
+		"activityBarBadge.foreground": "#ffffff",
+		"badge.background": "#DA9FE5",
+		"badge.foreground": "#ffffff",
+		"sideBar.background": "#242b3d",
+		"sideBarSectionHeader.background": "#2a3247",
+		"editorGroup.dropBackground": "#DA9FE580",
+		"editorGroup.focusedEmptyBorder": "#DA9FE5",
+		"editorGroupHeader.tabsBackground": "#242b3d",
+		"tab.border": "#00000033",
+		"tab.activeBorder": "#DA9FE5",
+		"tab.inactiveBackground": "#2a3247",
+		"tab.activeModifiedBorder": "#DA9FE5",
+		"tab.inactiveModifiedBorder": "#83432e",
+		"tab.unfocusedActiveModifiedBorder": "#af593e",
+		"tab.unfocusedInactiveModifiedBorder": "#83432e",
+		"editor.background": "#1E2433",
+		"editor.foreground": "#F0EBDF",
+		"editorLineNumber.foreground": "#FFFFFF4d",
+		"editorLineNumber.activeForeground": "#DA9FE5",
+		"editorCursor.foreground": "#ff8d03",
+		"editor.lineHighlightBorder": "#FFFFFF1a",
+		"editor.rangeHighlightBackground": "#FFFFFF0d",
+		"editorWidget.background": "#242b3d",
+		"editorHoverWidget.background": "#242b3d",
+		"editorMarkerNavigation.background": "#242b3d",
+		"peekView.border": "#DA9FE5",
+		"peekViewEditor.background": "#181c28",
+		"peekViewResult.background": "#242b3d",
+		"peekViewTitle.background": "#1E2433",
+		"panel.background": "#242b3d",
+		"panel.border": "#FFFFFF1a",
+		"panelTitle.activeBorder": "#F0EBDF80",
+		"panelTitle.inactiveForeground": "#F0EBDF80",
+		"statusBar.debuggingBackground": "#DA9FE5",
+		"statusBar.debuggingForeground": "#ffffff",
+		"statusBar.noFolderBackground": "#181c28",
+		"statusBarItem.activeBackground": "#DA9FE580",
+		"statusBarItem.hoverBackground": "#FFFFFF1a",
+		"statusBarItem.remoteBackground": "#DA9FE5",
+		"statusBarItem.remoteForeground": "#ffffff",
+		"pickerGroup.border": "#FFFFFF1a",
+		"terminal.ansiBlue": "#1E2433",
+		"terminal.ansiBrightBlue": "#F0EBDF",
+		"debugToolBar.background": "#2a3247",
+		"selection.background": "#DA9FE5",
+        // more
+        "tab.activeBackground": "#3e4b5f",
+        "tab.unfocusedActiveBorder":  "#97a7c8",
+        "tab.unfocusedActiveBackground":  "#2a3247", //"#2f363fea",
+        "titleBar.activeBackground": "#283249", // Title Bar background when the window is active.
+		"titleBar.activeForeground": "#ebeaea", // Title Bar foreground when the window is active.
+		"titleBar.inactiveBackground": "#303640",
+		"titleBar.border": "#93a7cb33",
+        // "tab.hoverBackground": "#293238",
+        "tab.hoverBackground": "#4e5961d2",
+		"statusBar.background": "#40485a", //"#283249" 424A5C Standard Status Bar background color.
+		"input.border": "#DA9FE5",
+        "editor.findMatchBackground": "#1B5227",
+		"editor.findMatchHighlightBackground": "#501f36",
+        "editorGutter.foldingControlForeground": "#DA9FE5",
+        "editorBracketMatch.background": "#036128", //"#015c25""#005321" Background color behind matching brackets.
+        "editorBracketMatch.border": "#00ff0000", // "#00ff0000"-black, "#888888"-grey Color for matching brackets boxes."
+        "editorWidget.resizeBorder": "#21d42ace", //"#21d42ace"-ok"#19eb23ce""#ee8711ce" border của ô FIND
+
+
+        // NEW MONOKAI FADED
+		// "editor.background": "#1E1E1E", // "#202020"monokai faded Editor background color.
+		// // "editor.foreground": "#D4D4D4",
+		// "editor.inactiveSelectionBackground": "#3A3D41",
+		// "editorIndentGuide.background": "#404040",
+		// "editorIndentGuide.activeBackground": "#707070",
+		// "editor.selectionHighlightBackground": "#ADD6FF26",
+		// "list.dropBackground": "#383B3D",
+		// "activityBarBadge.background": "#007ACC",
+		// "sideBarTitle.foreground": "#BBBBBB",
+		// "input.placeholderForeground": "#A6A6A6",
+		// "menu.background": "#252526",
+		// "menu.foreground": "#CCCCCC",
+		// "statusBarItem.remoteForeground": "#FFF",
+		// "statusBarItem.remoteBackground": "#16825D",
+		// "ports.iconRunningProcessForeground": "#369432",
+        // "sideBarSectionHeader.background": "#383a3d",
+		// "sideBarSectionHeader.border": "#ccc3",
+		// "tab.lastPinnedBorder": "#ccc3",
+		
+		// // add customization more.....
+		// "titleBar.inactiveBackground": "#303640",
+		// "titleBar.border": "#93a7cb33",
+        // // "statusBar.background": "#404040",
+		// // "statusBar.foreground": "#ee8811",
+		// "editor.selectionBackground": "#3362b3c2",
+		// "editor.lineHighlightBackground": "#2e2e2e",
+        // // "activityBar.background": "#323336",
+        // // "activityBar.background": "#303640",
+		// // "activityBarBadge.background": "#df8415",
+        // "activityBar.inactiveForeground": "#cfcfcf9c",
+		// "tab.activeBorder": "#ff8d03",
+        // "tab.activeBackground": "#313e52",
+        // "tab.inactiveBackground": "#272829",
+        // "tab.unfocusedActiveBackground":  "#2b323b",
+        // "tab.border": "#3a3d3f",
+        // "tab.hoverBackground": "#293238",
+		// "list.focusBackground": "#243a53",
+		// "list.activeSelectionBackground": "#195094", //"#195094""#007CD2", // List/Tree background color for the selected item when the list/tree is active.
+		// "list.hoverBackground": "#2c455f",
+		// "panel.border": "#ff8d03",
+		// // more
+		// // "editorGutter.background": "#1E1E1E", // "#303030"faded -"#1E1E1E" Background color of the editor gutter. The gutter contains the glyph margins and the line numbers.
+		// "editorLineNumber.activeForeground": "#FE8100",
+        // "editorGroup.border":"#27537c8f",
+
+		// // copy from monokai faded -lặp code
+		// "editorGutter.background": "#303030", // "#303030"faded -"#1E1E1E" Background color of the editor gutter. The gutter contains the glyph margins and the line numbers.
+		// "activityBar.background": "#282828", // Activity Bar background color.
+		// "statusBar.background": "#3b3b3b", // Standard Status Bar background color.
+        // "statusBar.foreground": "#ecebeb", // Status Bar foreground color.
+		// "statusBar.border": "#181818", // "#181818" Status Bar border color separating the Status Bar and editor.
+		// "titleBar.activeBackground": "#282828", // Title Bar background when the window is active.
+		// "titleBar.activeForeground": "#f8f8f8", // Title Bar foreground when the window is active.
+		// "editor.foreground": "#e6e6e6",  // Editor default foreground color.
+		// //["editor.foreground"] ảnh hưởng màu trắng trong css vd from to {} 
+		// "editorLineNumber.foreground": "#9a9a9a", // Color of editor line numbers.
+		// // "editorLineNumber.activeForeground": "#FF7800", // Color of the active editor line number.
+
+		// "foreground": "#CCCCCC", //  -Overall foreground color. This color is only used if not overridden by a component.
+		// // ["foreground"]-màu list chọn theme, file chữ tab explorer
+		// "sideBar.foreground": "#CCCCCC", // Side Bar foreground color. The Side Bar is the container for views like Explorer and Search.
+		// // ["sideBar.foreground"] màu chữ trong list file chữ tab explorer
+		// // ["editorWidget.foreground"] màu chữ trong tất mọi nơi, suggestion, widget, list file chữ tab explorer
+	},
+    "tokenColors": [
+        {
+            "settings": {
+                "foreground": "#D4D4D4"
+                // faded "#F8F8F8" default
+            }
+        },
+        {
+			// các dấu {} [] ()
+            "scope": [
+                "meta.embedded",
+                "source.groovy.embedded"
+            ],
+            "settings": {
+                "foreground": "#D4D4D4"
+                // "#D4D4D4" default dark+
+                // faded "#F8F8F8" default
+            }
+        },
+        {
+            "name": "Comment",
+            "scope": "comment",
+            "settings": {
+                // "foreground": "#9fa59f",
+				"foreground": "#7D8CB2", //"#636F8D"-color maze "#7380A3"-"#7786AA"-"#7D8CB2"
+                // "foreground": "#88846f" // faded
+				"fontStyle": "italic"
+            }
+        },
+        // {
+        //     "name": "String",
+        //     "scope": "string",
+        //     "settings": {
+        //         "foreground": "#e0d77b"
+		// 		// "#ce9178" default dark+ 
+        //         // "#e0d77b" default monokai faded
+        //         // faded
+        //     }
+        // },
+        {
+            "name": "Template Definition",
+            "scope": [
+                "punctuation.definition.template-expression",
+                "punctuation.section.embedded"
+            ],
+            "settings": {
+                "foreground": "#df5077"
+                // faded
+            }
+        },
+        {
+            "name": "Reset JavaScript string interpolation expression",
+            "scope": [
+                "meta.template.expression"
+            ],
+            "settings": {
+                "foreground": "#D4D4D4"
+                // "#D4D4D4" dark+ default
+                // faded "#F8F8F8" default
+            }
+        },
+        {
+            "name": "Number",
+            "scope": "constant.numeric",
+            "settings": {
+                "foreground": "#7d72c8"
+                // faded
+            }
+        },
+        {
+			// null, undefine, true, false
+            "name": "Built-in constant",
+            "scope": "constant.language",
+            "settings": {
+                "foreground": "#7d72c8"
+                // faded
+            }
+        },
+        {
+            "name": "User-defined constant",
+            "scope": "constant.character, constant.other",
+            "settings": {
+                "foreground": "#7d72c8"
+                // faded
+            }
+        },
+        // {
+        //     "name": "Variable",
+        //     "scope": "variable",
+        //     "settings": {
+        //         "fontStyle": "",
+        //         "foreground": "#F8F8F8"
+        //         // faded
+        //     }
+        // },
+        {
+            "name": "Keyword",
+            "scope": "keyword",
+            "settings": {
+                "foreground": "#df5077"
+                // faded
+            }
+        },
+        {
+            "name": "Storage",
+            "scope": "storage",
+            "settings": {
+                "fontStyle": "",
+                "foreground": "#df5077"
+                // faded
+            }
+        },
+        {
+            // lặp code
+            "name": "Storage type",
+            "scope": "storage.type",
+            "settings": {
+                "fontStyle": "italic",
+                "foreground": "#66D9EF"
+            }
+        },
+        {
+            // tên class được gạch chân
+            "name": "Class name",
+            "scope": "entity.name.type, entity.name.class, entity.name.namespace, entity.name.scope-resolution",
+            "settings": {
+                "fontStyle": "underline",
+                "foreground": "#ADCF3F"
+                // faded "#b5d93f"
+            }
+        },
+        {
+            "name": "Inherited class",
+            "scope": "entity.other.inherited-class",
+            "settings": {
+                "fontStyle": "italic underline",
+                "foreground": "#ADCF3F"
+                // faded "#b5d93f"
+            }
+        },
+        {
+            "name": "Function name",
+            "scope": "entity.name.function",
+            "settings": {
+                "fontStyle": "",
+                "foreground": "#99C265",
+                // "foreground": "#A2CD6B" //sang' hon
+				// "#99C265" Color Maze
+				// --------here-----------
+                // "#b5d93f" faded giam choi "#ADCF3F""#B1D43D"
+            }
+        },
+        {
+            // tham số function
+            "name": "Function argument",
+            "scope": "variable.parameter",
+            "settings": {
+                "fontStyle": "italic",
+                "foreground": "#F1A471" // "#F8A670"-vang carbon theme -"#F1A471"giảm sáng
+				// "#F8A670"
+                // faded "#ea9b40"
+				// ------here-------
+            }
+        },
+        {
+            "name": "Tag name",
+            "scope": "entity.name.tag",
+            "settings": {
+                "fontStyle": "",
+                "foreground": "#df5077"
+                // faded
+            }
+        },
+        {
+            "name": "Tag attribute",
+            "scope": "entity.other.attribute-name",
+            "settings": {
+                "fontStyle": "",
+                "foreground": "#ADCF3F"
+                // faded "#b5d93f"
+            }
+        },
+        // {
+        //     "name": "Library function",
+        //     "scope": "support.function",
+        //     "settings": {
+        //         "fontStyle": "",
+        //         "foreground": "#74c5d9"
+        //         // faded
+        //     }
+        // },
+        // {    //lặp code    
+        //     // classlist.style.target cùng màu .document
+        //     "name": "Library constant",
+        //     "scope": "support.constant",
+        //     "settings": {
+        //         "fontStyle": "",
+        //         "foreground": "#99CDEA"
+        //         // faded
+        //     }
+        // },
+        {
+            // support.type ảnh hưởng màu property css
+            // cẩn thận lặp code
+            "name": "Library class/type",
+            "scope": "support.type, support.class",
+            "settings": {
+                // "fontStyle": "italic",
+                "foreground": "#99CDEA"
+            }
+        },
+        {
+            "name": "Library variable",
+            "scope": "support.other.variable",
+            "settings": {
+                "fontStyle": ""
+                // faded
+            }
+        },
+        {
+            "name": "Invalid",
+            "scope": "invalid",
+            "settings": {
+                "fontStyle": "",
+                "foreground": "#F44747"
+                // faded
+            }
+        },
+        {
+            "name": "Invalid deprecated",
+            "scope": "invalid.deprecated",
+            "settings": {
+                "foreground": "#F44747"
+                // faded
+            }
+        },
+        {
+            "name": "JSON String",
+            "scope": "meta.structure.dictionary.json string.quoted.double.json",
+            "settings": {
+                // "foreground": "#99C265"
+                "foreground": "#87c578"
+                // "foreground": "#CFCFC2" // trang faded
+				// ----------here----------
+                // "#99C265" color maze
+				// "#87c578", quá đẹp edit for Color Maze
+            }
+        },
+        {
+            "name": "diff.header",
+            "scope": "meta.diff, meta.diff.header",
+            "settings": {
+                "foreground": "#75715E"
+                // faded
+            }
+        },
+        {
+            "name": "diff.deleted",
+            "scope": "markup.deleted",
+            "settings": {
+                "foreground": "#df5077"
+                // faded
+            }
+        },
+        {
+            "name": "diff.inserted",
+            "scope": "markup.inserted",
+            "settings": {
+                "foreground": "#ADCF3F"
+                // faded "#b5d93f"
+            }
+        },
+        {
+            "name": "diff.changed",
+            "scope": "markup.changed",
+            "settings": {
+                "foreground": "#e0d77b"
+                // faded
+            }
+        },
+        {
+            "scope": "constant.numeric.line-number.find-in-files - match",
+            "settings": {
+				"foreground": "#7d72c8A0"
+                // faded
+            }
+        },
+        {
+            "scope": "entity.name.filename.find-in-files",
+            "settings": {
+                "foreground": "#e0d77b"
+                // faded
+            }
+        },
+        {
+            "name": "Markup Quote",
+            "scope": "markup.quote",
+            "settings": {
+                "foreground": "#df5077"
+                // faded
+            }
+        },
+        {
+            "name": "Markup Lists",
+            "scope": "markup.list",
+            "settings": {
+				"foreground": "#e0d77b"
+                // faded
+            }
+        },
+        {
+            "name": "Markup Styling",
+            "scope": "markup.bold, markup.italic",
+            "settings": {
+				"foreground": "#99CDEA"
+                // faded
+            }
+        },
+        {
+            "name": "Markup Inline",
+            "scope": "markup.inline.raw",
+            "settings": {
+                "fontStyle": "",
+				"foreground": "#ea9b40"
+                // faded
+            }
+        },
+        {
+            "name": "Markup Headings",
+            "scope": "markup.heading",
+            "settings": {
+                "foreground": "#ADCF3F"
+                // faded "#b5d93f"
+            }
+        },
+        {
+            "name": "Markup Setext Header",
+            "scope": "markup.heading.setext",
+            "settings": {
+                "foreground": "#ADCF3F",
+                "fontStyle": "bold"
+                // faded
+            }
+        },
+        {
+            "name": "Markup Headings",
+            "scope": "markup.heading.markdown",
+            "settings": {
+                "fontStyle": "bold"
+            }
+        },
+        {
+            "name": "Markdown Quote",
+            "scope": "markup.quote.markdown",
+            "settings": {
+                "fontStyle": "italic",
+                "foreground": "#75715E"
+            }
+        },
+        {
+            "name": "Markdown Bold",
+            "scope": "markup.bold.markdown",
+            "settings": {
+                "fontStyle": "bold"
+            }
+        },
+        {
+            "name": "Markdown Link Title/Description",
+            "scope": "string.other.link.title.markdown,string.other.link.description.markdown",
+            "settings": {
+                "foreground": "#AE81FF"
+            }
+        },
+        {
+            "name": "Markdown Underline Link/Image",
+            "scope": "markup.underline.link.markdown,markup.underline.link.image.markdown",
+            "settings": {
+                "foreground": "#E6DB74"
+            }
+        },
+        {
+            "name": "Markdown Emphasis",
+            "scope": "markup.italic.markdown",
+            "settings": {
+                "fontStyle": "italic"
+            }
+        },
+        {
+            "name": "Markdown Punctuation Definition Link",
+            "scope": "markup.list.unnumbered.markdown, markup.list.numbered.markdown",
+            "settings": {
+                "foreground": "#D3D3D4"
+                // "#f8f8f2" defaut
+            }
+        },
+        {
+            "name": "Markdown List Punctuation",
+            "scope": [
+                "punctuation.definition.list.begin.markdown"
+            ],
+            "settings": {
+                "foreground": "#A6E22E"
+            }
+        },
+        {
+            "scope": "token.info-token",
+            "settings": {
+                "foreground": "#99CDEA"
+                // faded
+            }
+        },
+        {
+            "scope": "token.warn-token",
+            "settings": {
+                "foreground": "#ea9b40"
+                // faded
+            }
+        },
+        {
+            "scope": "token.error-token",
+            "settings": {
+				"foreground": "#d13b2e"
+                // faded
+
+            }
+        },
+        {
+            "scope": "token.debug-token",
+            "settings": {
+				"foreground": "#7d72c8"
+                // faded
+            }
+        },
+        {
+            "name": "this.self",
+            "scope": "variable.language",
+            "settings": {
+				"foreground": "#DA9FE5"
+				// "foreground": "#ea9b40" // faded
+                
+            }
+        },        
+// --------------add from MONKAI FADED--------
+// -----------thêm vào từ Monokai FADED theme------
+        {
+			"name": "Numeric suffix",
+			"scope": "numeric-suffix",
+			"settings": {
+				"fontStyle": "italic",
+				"foreground": "#99CDEA"
+			}
+		},
+        {
+			"name": "Punctuation tilde ~",
+			"scope": "punctuation.tilde",
+			"settings": {
+				"fontStyle": "",
+				"foreground": "#ADCF3F"
+                // faded "#b5d93f"
+			}
+		},
+        {
+			"name": "Punctuation brackets attribute",
+			"scope": "punctuation.squarebracket-attribute",
+			"settings": {
+				"fontStyle": "",
+				"foreground": "#df5077"
+			}
+		},
+        {
+			"name": "Keyword type",
+			"scope": "keyword.type",
+			"settings": {
+				"fontStyle": "italic",
+				"foreground": "#99CDEA"
+			}
+		},
+        {
+			"name": "Keyword other class",
+			"scope": "keyword.other.class",
+			"settings": {
+				"fontStyle": "italic",
+				"foreground": "#99CDEA"
+			}
+		},
+        {
+			"name": "Function call",
+			"scope": "meta.function-call",
+			"settings": {
+				"fontStyle": "",
+				"foreground": "#99CDEA"
+			}
+		},
+        {
+            // trùng storage.type??
+            // chữ "FUNCTION" + CONST hằng số
+			"name": "Meta function call and type-parameter",
+			"scope": "storage.type, entity.name.type.type-parameter",
+			"settings": {
+				"fontStyle": "italic",
+				"foreground": "#99CDEA"
+			}
+		},
+        {
+			"name": "La f del 10.0f",
+			"scope": "storage.type.numeric",
+			"settings": {
+				"fontStyle": "italic",
+				"foreground": "#99CDEA"
+			}
+		},
+        // {
+        //    // cái này của C# language màu giống constructor
+		// 	"name": "Class name",
+		// 	"scope": "entity.name.type.namespace",
+		// 	"settings": {
+		// 		"foreground": "#D3D3D4"
+        //         // "#4EC9B0" xanh constructer
+        //         // "#ffffff"default
+		// 	}
+		// },
+        {
+            // this nên để cùng màu true false
+			"name": "Parameters and this",
+			"scope": "entity.name.variable.parameter, keyword.other.this, keyword.other.base",
+			"settings": {
+				"fontStyle": "italic",
+				"foreground": "#ea9b40"
+				// "#ea9b40" default
+			}
+		},
+// ---------bổ sung thêm từ dark+ default-----------------
+		{
+			"scope": [
+				"meta.preprocessor",
+				"entity.name.function.preprocessor"
+			],
+			"settings": {
+				"foreground": "#3688cc"
+				// "#569cd6" default
+			}
+		},
+		{
+			"scope": "meta.preprocessor.numeric",
+			"settings": {
+				"foreground": "#b5cea8"
+			}
+		},
+		{
+			"scope": "meta.preprocessor.string",
+			"settings": {
+				"foreground": "#ce9178"
+			}
+		},
+		{
+			"scope": [
+				"meta.preprocessor",
+				"entity.name.function.preprocessor"
+			],
+			"settings": {
+				"foreground": "#3688cc"
+				// "#569cd6" default
+			}
+		},
+// -----------------------------add rewite ghi de-------------------------
+        {
+			// .document + tham số trong function (variable + nhiều khai báo khác)
+			"name": "Variable and parameter name",
+			"scope": [
+				// "variable",
+				"meta.definition.variable.name",
+				"support.variable",
+				"entity.name.variable"
+			],
+			"settings": {
+				"foreground": "#99CDEA"
+				// "foreground": "#8ACFED"
+				// "#99CDEA"-color maze -"#8ACFED"-ok-giamchoi86C9E6"#82C2DF""#7EBCD8"-ok
+				// "#99CDEA" color maze -nên để cho cùng sáng màu
+				// ----------here----------
+				// "#74c5d9" monokai faded theme,màu support function, property css "#66D9EF" sáng hơn 
+				// "#84D6FF"+"#7ED4FF"+["#81C6E5"]public+"#7EC2E0" ban ngày -sáng rõ đẹp
+				// #72B7DB+ sáng đẹp -màu cho theme -night "#6AC7F6"+"#6EBDE5"+"#72C4ED"
+				// "#68B2D8" màu cho theme -midnight2
+				// "#7bd1ff" + "#71C1EB" ban ngày -sáng rõ đẹp tối hơn -
+				// "#8cd3fa" ban ngày -sáng rõ đẹp -gần màu gốc
+				//	"#65aac7" màu giảm chói lv4 ok
+				// "#6baeca" màu giảm chói lv3
+				// "#7bbdda" màu giảm chói lv2
+				// "#81C3DF" màu giảm chói lv1 của gốc "#9CDCFE"
+				// "#9CDCFE" default
+			}
+		},
+        {
+            // cai nay them vao từ 1 số theme như color-maze
+            // classlist.style.target phải cùng màu document (dark+ default bị sai màu, như monokai dimmed là chuẩn)
+            "name": "Library constant",
+            "scope": "support.constant",
+            "settings": {
+                "fontStyle": "",
+                "foreground": "#99CDEA"
+                // faded
+            }
+        },
+        {	
+			// màu biến variable sau constant + đứngtrước.element
+			"name": "Constants and enums",
+			"scope": [
+				"variable.other.constant",
+				"variable.other.enummember"
+			],
+			"settings": {
+				"foreground": "#77ABFF",
+				// ---------here-------
+				//"#77ABFF" xanh quá đẹp
+				// "foreground": "#30c5f7e1"
+				//"#4EB2F9"-OK xanh trời đẹp public monokai 4DB0F6
+				// "#2ecbffe1"+"#30c5f7e1"-ổn ban ngày -sáng rõ đẹp
+				// "#47b8dde1" publish
+				// default "#4FC1FF"
+			}
+		},
+        {
+			// cái này k cần thêm vào source code, để thay màu
+			// [màu property css] + biến của css
+			//ảnh hưởng JSON KEY ["support.type.property-name"] .json
+		"scope": [
+			"support.type.vendored.property-name",
+			"support.type.property-name",
+			// "variable.css",
+			// "variable.scss",
+			// "variable.other.less",
+			"source.coffee.embedded"
+		],
+		"settings": {
+			// "foreground": "#81C6E5",
+			// "foreground": "#8ACFED" //color maze
+			"foreground": "#A1B6EA" //color maze-"#97ABDB" property "#A1B6EA"-sáng ok hơn
+			// "foreground": "#A6BFD3", // tự chỉnh xám
+			// --------here------
+			// "#99CDEA"-color maze -"#8ACFED"-ok-giamchoi86C9E6"#82C2DF""#7EBCD8"-ok
+			// "#84D6FF"+"#7ED4FF"+["#81C6E5"]public-DAY+"#7EC2E0""#86CDEE" ban ngày -sáng rõ đẹp
+			// "#74c5d9" monokai faded theme,màu support function, property css "#66D9EF" sáng hơn 
+			// "#7bd1ff" ban ngày -sáng rõ đẹp tối hơn -
+			// "#8cd3fa" ban ngày -sáng rõ đẹp -gần màu gốc
+			// "#7bbdda"
+			// "#BCBDCE" trắng xám
+			//	"#65aac7" màu giảm chói lv4 ok
+			// "#6baeca" màu giảm chói lv3
+			// "#7bbdda" màu giảm chói lv2 --sáng
+			// "#81C3DF" màu giảm chói lv1 của gốc "#9CDCFE"
+			}
+		},
+        {
+			// thêm từ color maze
+			"name": "JSON key",
+			"scope": "support.type.property-name.json",
+			"settings": {
+			  "foreground": "#99CDEA"
+			}
+		  },
+          {
+			// bóctách- set lại màu riêng --màu biến khai báo css
+			"scope": [
+				"variable.css",
+				"variable.scss",
+				"variable.argument.css",
+				"variable.other.less",
+			],
+			"settings": {
+				"foreground": "#77ABFF"
+				// "foreground": "#29B6E5"
+				// "#47b8dde1"
+				// "#3BC1AF" 00A897 xanh lá
+				// "#66D9EF"
+				// "#29B6E5" -> khá ok
+				// "#CE9178" default
+			}
+		},
+        {
+            // ở trên có lặp lại code
+            // chữ "FUNCTION" + CONST hằng số --[storage.type.function.js, storage.type.js]
+                "scope": "storage.type",
+                "settings": {
+                    // "foreground": "#B67FFF",
+					"foreground": "#DA9FE5", // color Maze
+				    "fontStyle": ""
+                    // "#B67FFF" tím
+                    // "#569cd6" default
+                }
+        },
+        {
+			// gốc 2 cái này đi cùng nhau
+			// [storage.modifier"]exam: keyword extends
+			"name": "Storage",
+			"scope": "storage.type, storage.modifier",
+			"settings": {
+				"foreground": "#DA9FE5",
+				// "foreground": "#B67FFF",
+				"fontStyle": ""
+			//   "#DA9FE5"
+			// ------here--------
+			}
+		},
+        {
+			//  tách riêng
+			// [Object keys]-cùng màu document giống theme dark+ default, OR cùng màu chữ function (giống theme-monokai-dimmed)
+			"name": "Object keys, TS grammar specific",
+			"scope": [
+				"variable.other.property",
+			],
+			"settings": {
+				"foreground": "#99CDEA"
+                // "#81C6E5" night-eyes-default
+				// "#74c5d9" monokai faded
+				// "#bed974" xanh cốm
+                // 86B2BA trắng nhạt
+				// "#9CDCFE" default
+			}
+		},
+        {
+			// support-function -bổ xung tử monokai faded
+			// màu nên để khác màu document vì sau có nhiều biến gần function dễ nhầm
+			"name": "Library function",
+			"scope": "support.function",
+			"settings": {
+				"fontStyle": "",
+				"foreground": "#CDC10F"
+				// "#CDC10F" color maze giảm chói
+				//--------here---------
+				//"#D6C589" dark+ default day
+				// "#e9c10e" vàng quá đẹp (tối hơn "E7BF0E+E3BC0E-"#dbbf41")
+				// "#CEB24E" màu nigh-eyes
+				// "#74c5d9" gốc
+			}
+		},
+        {
+            "name": "Control flow / Special keywords",
+            "scope": [
+                "keyword.control",
+            // return + loop: do, while, if-else, try-catch, for 
+                "source.cpp keyword.operator.new",
+                "keyword.operator.delete",
+                "keyword.other.using",
+                "keyword.other.operator",
+                "entity.name.operator"
+            ],
+            "settings": {
+                "foreground": "#FF6CAB"
+				// "foreground": "#F16372"
+                // "foreground": "#F16372" //đỏ "#df5077"-monokai faded
+				// "foreground": "#E47FA1" // hồng ok đỡ chói hơn
+				// "foreground": "#DA9FE5" //color maze
+				// "#FF6CAB" đẹp-OK của theme momokai alt beyond
+				// "#F16372" màu đỏ đậm F24176
+				// "foreground": "#d67797" màu hồng quá đẹp -hơn & giống default
+				// "#d49047" vàng nghệ ok
+				// default "#C586C0" tím hồng nhạt
+            }
+        },
+        {
+            "name": "Types declaration and references",
+            "scope": [
+                "meta.return-type",
+                "support.class",
+                // "support.type",
+                // support.type ảnh hưởng màu property css, k nên có ở đây
+                "entity.name.type",
+                "entity.name.namespace",
+                "entity.other.attribute",
+                "entity.name.scope-resolution",
+                "entity.name.class",
+                "storage.type.numeric.go",
+                "storage.type.byte.go",
+                "storage.type.boolean.go",
+                "storage.type.string.go",
+                "storage.type.uintptr.go",
+                "storage.type.error.go",
+                "storage.type.rune.go",
+                "storage.type.cs",
+                "storage.type.generic.cs",
+                "storage.type.modifier.cs",
+                "storage.type.variable.cs",
+                "storage.type.annotation.java",
+                "storage.type.generic.java",
+                "storage.type.java",
+                "storage.type.object.array.java",
+                "storage.type.primitive.array.java",
+                "storage.type.primitive.java",
+                "storage.type.token.java",
+                "storage.type.groovy",
+                "storage.type.annotation.groovy",
+                "storage.type.parameters.groovy",
+                "storage.type.generic.groovy",
+                "storage.type.object.array.groovy",
+                "storage.type.primitive.array.groovy",
+                "storage.type.primitive.groovy"
+            ],
+            "settings": {
+                "foreground": "#4EC9B0"
+            }
+        },
+        {
+            "name": "Types declaration and references, TS grammar specific",
+            "scope": [
+                "meta.type.cast.expr",
+                "meta.type.new.expr",
+                "support.constant.math",
+                "support.constant.dom",
+                "support.constant.json",
+                "entity.other.inherited-class"
+            ],
+            "settings": {
+                "foreground": "#4EC9B0"
+            }
+        }, 
+//-----add more----------------->
+        {
+			// lặp source code
+			// null, undefine, true, false
+			"name": "Built-in constant",
+			"scope": "constant.language",
+			"settings": {
+				// "foreground": "#F16372" //đỏ "#df5077"-monokai faded
+				// "foreground": "#07b1b1" //"#07b1b1"-xanh"#00A8A8"- FF8563-cam "#F8A670"camđậm
+				// "foreground": "#FF8563" // FF8563-cam  "#F8A670"camđậm
+				// "foreground": "#DA9FE5" //color maze
+				// "foreground":  "#da4032",//"#E03C2C""#D25448"tự chọn
+				"foreground": "#FF6774", //đẹp for color Maze
+				// "foreground": "#B67FFF" 
+				"fontStyle": "italic"
+				// ------here-------
+				// "#15BAC4" xanh  "#00A8A8"
+				// ["D25448"] màu đỏ đậm
+				// "#2CB6B5""#269C9B" sáng hơn
+				// "#7d72c8" default
+				// faded
+			}
+		},
+		{	
+			// toán tử >= && === || + %
+			"scope": "keyword.operator",
+			"settings": {
+				"foreground": "#CD90D5"
+                // "foreground": "#DA9FE5"
+				// "#CD90D5" tuan hồng nhạt hơn
+				// "foreground": "#df5077" // monokai faded
+				// "foreground": "#E67522"
+				// "foreground": "#d4d4d4"
+				// "#C389CB" tím sáng CD90D5-sáng hơn
+				// "#d67797" màu hồng đẹp
+				// "#df7e73" màu hồng đỏ support contant
+				// "#c2c2c2" 
+				// "#b3b3b3" -màu trắng đẹp 
+				// "#E67522" darkFresh
+				// "#d67a39" vàng ayu fix
+				// "#d4d4d4" default--> OK
+			}
+		},
+		{	
+			// dấu =
+			"scope": "keyword.operator.assignment",
+			"settings": {
+				"foreground": "#b3b3b3"
+				// "#b3b3b3" ok
+			}
+		},
+		{	
+			// các dấu  {} , . :
+			"scope": "source.js, source.cs",
+			"settings": {
+				"foreground": "#d4d4d4"
+				// "#b3b3b3" ok
+				// "#93A8CB" comfortable
+				// "#d4d4d4" default
+				// source.js cho javascript language 
+				// source.cs cho C# language
+			}
+		},
+		{
+			"scope": [
+				"constant.numeric",
+				// number số
+				"keyword.operator.plus.exponent",
+				"keyword.operator.minus.exponent"
+			],
+			"settings": {
+				"foreground": "#94D18B"
+				//"#98D78F"ok "#94D18B" "#84BB7C"+"#7EB377"+"#76A76F" xanh nõn chuối
+				// "#CFB148" vàng
+				// "#b5cea8" default
+			}
+		},
+		{
+			// bóctách- set lại màu riêng --màu other number
+			"scope": "constant.other.color.rgb-value, constant.other.rgb-value",
+			"settings": {
+				"foreground": "#DDB974"
+				// "#C1CD45"
+				// "#5ea79e" "#639b94"-xanh "#6DC1B7"
+				// "#639b94" ok
+				// "#4582bb"
+				// "#AEB93E" comfortable
+				// "#CE9178" default
+			}
+		},
+		{
+			// màu đơn vị rem, em
+		"scope": "keyword.other.unit",
+		"settings": {
+			// "foreground": "#d67797"
+			// "foreground": "#CC86D5"
+				// "#C389CB" tím sáng CD90D5-sáng hơn
+				// "#d67797" màu hồng đẹp
+			// "#A675AD"+"#9F70A5"-tím tối
+			"foreground": "#B67FFF" 
+			// "foreground": "#c2c97e" 
+			// "foreground": "#B67FFF" tím
+			// "#b5cea8" default
+			}
+		},
+		{
+			// template string ${}
+            "name": "String interpolation",
+            "scope": [
+                "punctuation.definition.template-expression.begin",
+                "punctuation.definition.template-expression.end",
+                "punctuation.section.embedded"
+                // biểu tượng template string ${} gốc trùng màu function
+            ],
+            "settings": {
+                // "foreground": "#E58532"
+                // "foreground": "#B67FFF",
+				"foreground": "#DA9FE5" // color maze
+				// ------here-------
+				// "#E58532" vàng 
+                //"#B67FFF" màu tím
+                // "#3688cc" màu theo đồng bộ -ok
+                // "#569cd6" default
+            }
+        },
+		{
+			"name": "CSS property value",
+			"scope": [
+				"support.constant.property-value",
+				// màu block, center, none
+				"support.constant.font-name",
+				"support.constant.media-type",
+				"support.constant.media",
+				// "constant.other.color.rgb-value",
+				// "constant.other.rgb-value",
+				"support.constant.color"
+			],
+			"settings": {
+				// "foreground": "#E47FA1"
+				// "foreground": "#F1A471", //"#F1A471" màu tham số
+				"foreground": "#E4B768" //"#E4B768"vàng nhạt
+				// "#E47FA1" ok
+				// "#F8A670"-tham số monokai -carbon theme "#F1A471"-giảm sáng
+				// "#d67797"
+				// "#df7e73"+"#D97A70" hồng đỏ -chất nhạt đỡ chói hơn. ok
+			}
+		},
+		{
+			// màu attribute html: class, src, conten, href, rel
+			// sẽ ảnh hưởng [class name css]
+		"scope": "entity.other.attribute-name",
+		"settings": {
+			"fontStyle": "italic",
+			// "foreground": "#74c5d9"
+			"foreground": "#D4CA49"
+			// "foreground": "#7EBCD8"
+			// "#74c5d9" style dark+ default    "#7EBCD8"-mau tag name style
+			// "#C3B811"-ok-vàng (giam choi "#E2D611" "#D6CB10")
+			// "#E7BF0E" màu của support function -giảm "#C8BD0F"-ok "#E0B90E"D9B30D
+			// "#9CDCFE" default
+			}
+		},
+		{
+			// set lại màu [class name css]
+			"scope": [
+				"entity.other.attribute-name.class.css",
+				// set màu class name css
+				"entity.other.attribute-name.class.mixin.css",
+				"entity.other.attribute-name.id.css",
+				"entity.other.attribute-name.parent-selector.css",
+				// "entity.other.attribute-name.pseudo-class.css",
+				// "entity.other.attribute-name.pseudo-element.css",
+				"source.css.less entity.other.attribute-name.id",
+				"entity.other.attribute-name.scss"
+			],
+			"settings": {
+				// "foreground": "#ADCF3F",
+				"foreground": "#DA9FE5", // color mazer
+				// "foreground": "#A8D86B", // "#99C265" Color Maze
+			  	// "foreground": "#77BF6D" //"#77BF6D"--OK-quá đẹp- xanh nõn chuối-"#84BB7C"
+				// "#b5d93f" faded
+			}
+		},
+		{
+			// bóctách- set lại màu riêng pseudo class, element
+			"scope": "entity.other.attribute-name.pseudo-class.css, entity.other.attribute-name.pseudo-element.css",
+			"settings": {
+				// "foreground": "#FF6CAB"
+				"foreground": "#F6CE00"
+				// "#FF6CAB"-hồng đỏ đậm monokai alt beyond
+				// "#df7e73" block "#EA8A7F"-first
+				// "#B67FFF"
+			}
+		},
+		{
+			"scope": "text.html.derivative",
+			"settings": {
+				"foreground": "#b4c7d8"
+				// "foreground": "#A6B8C8"
+				//"#b4c7d8" fresh dark+
+				//"#A6B8C8" quá đẹp
+				//  "#A6B8C8", màu trắng string content html --[text.html.derivative]
+			}
+		},
+		{
+			"scope": "entity.name.tag",
+				// màu tag name
+			"settings": {
+				"foreground": "#8ACFED"
+				// "foreground": "#99CDEA"
+				// "#99CDEA"-color maze -"#8ACFED"-ok-giamchoi86C9E6"#82C2DF""#7EBCD8"-ok
+				// "#3AA2CB" "#3AA2CB"
+				// "#3595bbf1" ok.tối hơn "#4cbfecc0"
+				// màu tag name sáng "#4cbfecc0",
+				// "#47b8dde1" màu biến đẹp sáng hơn màu "#4cbfecc0"
+				// "#0788bbf5" tối hơn 
+				// "#569cd6" default
+			}
+		},
+		{
+			"name": "brackets of XML/HTML tags",
+			"scope": "punctuation.definition.tag",
+			// đóng mở tag
+			"settings": {
+				"foreground": "#808080"
+				// "#328edaa4"
+				// "#808080" default
+			}
+		},
+// ---------style 1 ---------bt chỉ cần 1 thuộc tính string là xong----------
+		{
+			// mặc định scope"string" màu mọi nơi
+			"scope": "string",
+			"settings": {
+				"foreground": "#87c578"
+				// "#ce9178" default dark+ 
+                // "#e0d77b" default monokai faded
+			}
+		},
+        // {
+        //     "name": "JSON String",
+        //     "scope": "meta.structure.dictionary.json string.quoted.double.json",
+        //     "settings": {
+        //         // "foreground": "#99C265"
+        //         "foreground": "#87c578"
+		// 		// ----------here----------
+        //         // "#99C265" color maze
+		// 		// "#87c578", quá đẹp edit for Color Maze
+        //     }
+        // },
+		{
+			// k nên add thêm tuỳ biến E2D611
+			"name": "HTML String",
+			"scope": "string.quoted.single, string.quoted.double",
+			"settings": {
+				// "foreground": "#ce9178"
+				 "foreground": "#87c578" //, quá đẹp edit for Color Maze (vàng hơn monokai)
+			  // "#77BF6D"--OK-quá đẹp- xanh nõn chuối-"#84BB7C"
+			//   "#73C360" màu comment
+			//   "#c1c265" vàng nhạt
+			// "#b5d93f" xanh classname monokain faded
+			//	 "#88CF55" xanh lá   "#85CA53" giam choi
+			// "#ce9178" default dark+
+			}
+		},
+		{
+			// k nên add thêm tuỳ biến
+			"name": "Javascript String",
+			"scope": [
+				"string.template.js",
+				"string.quoted.single.js",
+				"string.quoted.double.js"
+			],
+			"settings": {
+			//   "foreground": "#ce9178"
+				// "foreground": "#E2D76C" 
+				// ------here-------
+			// "foreground": "#99C265"
+			  "foreground": "#e0d77b"
+			//   "#C7C044"--OK  nhạt hơn"#C4BE53"
+			//   "#FFE448"      nhạthơn"#F3D945""#EFD644""#EBD242"
+            // "#e0d77b" default monokai faded
+			// "#ce9178" default dark+
+			}
+		  },
+
+// ---------styte 1 -------------
+
+
+// ----------tuấn thêm vào sửa 1 sỗ lỗi monokai faded------
+		{
+			// màu trắng trong README
+			"scope": "meta.paragraph.markdown, text.html.markdown",
+			"settings": {
+				"foreground": "#D3D3D4"
+			}
+		},
+        {
+			// sửa 1 số chỗ bị hiển thị màu trắng monokai faded
+			"name": "",
+			"scope": [
+				// cùng màu document (theme dark+ default)-> nên cùng màu variable sau Const(giống theme monokai dimmed) nhưng sẽ bị xấu vì khá nhiều biến 
+				"variable.other.object",
+				"variable.other.readwrite",
+				// màu biến khác -["variable.other.readwrite.js"]
+				// "variable.other.property.js",
+				// lặp code -là key của object -[variable.other.property.js]
+				"variable.other.object.property",
+				"variable.other.readwrite.alias",
+				"variable.other",
+				"variable.other.global"
+			],
+			"settings": {
+				"fontStyle": "",
+				// "foreground": "#81C6E5",
+				"foreground": "#99CDEA"
+				// "#99CDEA"-color maze -"#8ACFED"-ok-giamchoi86C9E6"#82C2DF""#7EBCD8"-ok
+				// ------here-------
+				// "#4EB2F9"
+				// "#74c5d9" monokai faded
+                // "#99CDEA" color maze -nên để cho cùng sáng màu
+			}
+		},
+        {
+            // trùng lặp ghi đè code
+            // cái này của C# language màu giống constructor
+			"name": "Class name",
+			"scope": "entity.name.type.namespace",
+			"settings": {
+				"foreground": "#4EC9B0"
+			}
+		},
+
+    ],
+    "semanticHighlighting": true
+}
