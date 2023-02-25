@@ -1,0 +1,150 @@
+{
+    "name": "night-eyes-theme",
+    "displayName": "night eyes Theme",
+    "description": "a dark theme for last long coding",
+    "version": "0.0.81",
+    "publisher":"MTuan",
+    "author": {
+        "name": "ManhTuan",
+        "url": "https://google.com/"
+    },
+    "engines": {
+        "vscode": "^1.56.0"
+    },
+    "license": "MIT",
+    "icon": "images/night-eyes.png",
+    "galleryBanner": {
+        "color": "#1E2433",
+        "theme": "dark"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "keywords": [
+        "VSCode",
+        "Themes",
+        "theme",
+        "dark",
+        "night",
+        "dimmed",
+        "monokai",
+        "Retro",
+        "Purple",
+        "Light Blue",
+        "Green",
+        "Yellow"
+    ],
+    "bugs": {
+        "url": "https://github.com/boykensoidong/comfortable-night-eyes-theme/issues",
+        "email": "tuantran93hb@gmail.com"
+    },
+    "homepage": "https://github.com/boykensoidong/comfortable-night-eyes-theme/",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/boykensoidong/comfortable-night-eyes-theme/"
+    },
+    "contributes": {
+        "themes": [
+            {
+                "id": "night-eyes-color-maze",
+                "label": "Night-Eyes (Color Maze)     <---------",
+                "uiTheme": "vs-dark",
+                "path": "./themes/1-night-eyes-COLOR-MAZE.json"
+            },
+            {
+                "id": "night-eyes-one-dark-pro",
+                "label": "Night-Eyes (One Dark Pro) -Style   <--",
+                "uiTheme": "vs-dark",
+                "path": "./themes/7-night-eyes-ONE-DARK-PRO-style.json"
+            },
+            {
+                "id": "night-eyes-fresh-dark",
+                "label": "Night-Eyes (FRESH Dark+)   <---------",
+                "uiTheme": "vs-dark",
+                "path": "./themes/2-night-eyes-FRESH-DARK.json"
+            },
+            {
+                "id": "night-eyes-monokai-1",
+                "label": "Night-Eyes (Monokai) 1     <------",
+                "uiTheme": "vs-dark",
+                "path": "./themes/3-night-eyes-MONOKAI-FADED-1.json"
+            },
+            {
+                "id": "night-eyes-monokai-1-darker",
+                "label": "Night-Eyes (Monokai) 1 Darker",
+                "uiTheme": "vs-dark",
+                "path": "./themes/4-night-eyes-MONOKAI-FADED-1-darker.json"
+            },
+            {
+                "id": "night-eyes-monokai-2",
+                "label": "Night-Eyes (Monokai) 2",
+                "uiTheme": "vs-dark",
+                "path": "./themes/5-night-eyes-MONOKAI-FADED-2.json"
+            },
+            {
+                "id": "night-eyes-monokai-2-darker",
+                "label": "Night-Eyes (Monokai) 2 Darker ",
+                "uiTheme": "vs-dark",
+                "path": "./themes/6-night-eyes-MONOKAI-FADED-2-darker.json"
+            },
+            {
+                "id": "night-eyes-day",
+                "label": "Night-Eyes (Dark+ Default) - Day",
+                "uiTheme": "vs-dark",
+                "path": "./themes/night-eyes-default-day.json"
+            },
+            {
+                "id": "night-eyes-night",
+                "label": "Night-Eyes (Dark+ Default) - Night",
+                "uiTheme": "vs-dark",
+                "path": "./themes/night-eyes-default-night.json"
+            },
+            {
+                "id": "night-eyes-midnight",
+                "label": "Night-Eyes (Dark+ Default) - MidNight",
+                "uiTheme": "vs-dark",
+                "path": "./themes/night-eyes-default-midnight.json"
+            },
+            {
+                "id": "night-eyes-sunshine",
+                "label": "Night-Eyes (Dark+ Default) - SunShine",
+                "uiTheme": "vs-dark",
+                "path": "./themes/night-eyes-default-sunshine.json"
+            },
+            {
+                "id": "night-eyes-dimmed-1",
+                "label": "Night-Eyes (Monokai Dimmed) 1",
+                "uiTheme": "vs-dark",
+                "path": "./themes/night-eyes-default-dimmed-monokai-1.json"
+            },
+            {
+                "id": "night-eyes-dimmed-2",
+                "label": "Night-Eyes (Monokai Dimmed) 2",
+                "uiTheme": "vs-dark",
+                "path": "./themes/night-eyes-default-dimmed-monokai-2.json"
+            }
+        ]
+    },
+    "badges": [
+        {
+            "url": "https://img.shields.io/visual-studio-marketplace/v/MTuan.night-eyes-theme.svg",
+            "href": "https://marketplace.visualstudio.com/items/MTuan.night-eyes-theme",
+            "description": "Extension Versions"
+        },
+        {
+            "url": "https://img.shields.io/visual-studio-marketplace/i/MTuan.night-eyes-theme.svg",
+            "href": "https://marketplace.visualstudio.com/items/MTuan.night-eyes-theme",
+            "description": "Extension Installs"
+        },
+        {
+            "url": "https://img.shields.io/visual-studio-marketplace/d/MTuan.night-eyes-theme.svg",
+            "href": "https://marketplace.visualstudio.com/items/MTuan.night-eyes-theme",
+            "description": "Extension Downloads"
+        },
+        {
+            "url": "https://img.shields.io/visual-studio-marketplace/r/MTuan.night-eyes-theme.svg",
+            "href": "https://marketplace.visualstudio.com/items/MTuan.night-eyes-theme",
+            "description": "Extension Ratings"
+        }
+    ]
+}
